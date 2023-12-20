@@ -4,6 +4,5 @@
 # WORDPRESS_DB_PASSWORD: contraseña creada en cloudsql
 # WORDPRESS_DB_NAME: nombre de la base de datos creada en cloudsql
 FROM bitnami/wordpress-nginx
-EXPOSE 443
 
 

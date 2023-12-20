@@ -3,6 +3,7 @@
 # WORDPRESS_DB_USER: nombre de usuario creado en cloudsql
 # WORDPRESS_DB_PASSWORD: contraseña creada en cloudsql
 # WORDPRESS_DB_NAME: nombre de la base de datos creada en cloudsql
-FROM wodby/wordpress-nginx
+FROM bitnami/wordpress-nginx
+EXPOSE 8080
 
 

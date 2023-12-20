@@ -5,7 +5,7 @@
 # WORDPRESS_DB_NAME: nombre de la base de datos creada en cloudsql
 FROM nginx:alpine
 
-COPY --from=0 /var/www/html /var/www/html
+COPY /var/www/html /var/www/html
 
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d
